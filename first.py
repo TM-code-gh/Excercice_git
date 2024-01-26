@@ -4,3 +4,8 @@ from math import *
 import random
 import pandas as pd
 from datetime import datetime
+
+def show():
+  print("Oh hello!!")
+
+show()
