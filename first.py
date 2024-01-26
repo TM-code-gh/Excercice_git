@@ -11,7 +11,7 @@ def show(value):
 
 def create(values):
     for value in values:
-        create(value)
+        show(value)
         
 show()
 create(['A','B','C','C*','D','E','F','F*','F**','G','H'])
