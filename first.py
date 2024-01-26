@@ -1,8 +1,4 @@
-from tkinter import *
-from tkinter.messagebox import *
 from math import *
-import random
-import pandas as pd
 from datetime import datetime
 
 def show():
@@ -20,4 +16,9 @@ def create(values):
 show()
 create(['A','B','C','C*','D','E','F','F*','F**','G','H'])
 
+def moyenne(values):
+    return sum(values)/len(values)
 
+
+print(moyenne([20, 15, 12, 10]))
+print(moyenne([12, 12, 12, 15]))
