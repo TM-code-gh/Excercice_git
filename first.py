@@ -8,4 +8,8 @@ def show():
 
 show()
 
+def moyenne(values):
+    return sum(values)/len(values)
 
+
+print(moyenne([20, 15, 12, 10]))
